@@ -1,0 +1,185 @@
+body {
+  font-family: 'Signika', sans-serif;
+  background-color: #bcbdc0;
+  color: #545454;
+}
+
+/*notes*/
+.add-note-button {
+  padding: 10px;
+  background-color: #63c5cd;
+  color: white;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+}
+
+.note {
+  font-weight: 200;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.note-header {
+  border-bottom: 1px solid #caccce;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-title {
+  margin-left: 10px;
+}
+
+.note-body {
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.note-header img {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+}
+
+/*modals*/
+.modal {
+  border-radius: 15px;
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  outline: none;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal input {
+  outline: none;
+  padding: 10px;
+  font-weight: 200;
+  border: none;
+  margin: 10px;
+}
+
+.modal textarea {
+  outline: none;
+  padding: 10px;
+  font-weight: 200;
+  border: none;
+  margin: 10px;
+  width: 340px;
+  height: 150px;
+}
+
+.modal-bottom {
+  border-radius: 0 0 15px 15px;
+  background-color: #fafafa;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-title {
+  font-size: 20px;
+}
+
+.input-body {
+  font-size: 15px;
+}
+
+
+/*delete modal*/
+.delete-modal {
+  border-radius: 15px;
+  background-color: white;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  outline: none;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.delete-title {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.delete-body {
+  font-weight: 200;
+  font-size: 15px;
+  padding: 15px;
+}
+
+/*buttons*/
+button {
+  color: white;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.cancel {
+  background-color: #d0d0d2;
+}
+
+.add {
+  background-color: #63c5cd;
+}
+
+/*color borders*/
+.border {
+  border-radius: 15px 15px 0 0;
+  height: 10px;
+  width: 100%;
+}
+
+.color-box-group {
+  display: flex;
+  margin: 10px;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.pink {
+  background-color: #f9a8b1;
+}
+
+.green {
+  background-color: #b0efd2;
+}
+
+.yellow {
+  background-color: #fbdcaa;
+}
+
+.blue {
+  background-color: #a8caff;
+}
